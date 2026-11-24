@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+dist/
+*.tsbuildinfo
+
+# Build artifacts
+engine/build/
+backend/app/native/*.dll
+backend/app/native/*.so
+backend/app/native/*.dylib
+backend/app/native/active.txt
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
+
+# Keep the native directory in source control
+!backend/app/native/.gitkeep
